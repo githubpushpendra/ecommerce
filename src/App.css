@@ -1,0 +1,40 @@
+.cart {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: end;
+}
+
+/* .shopParent {
+  justify-content: center;
+  align-items: center;
+} */
+/* 
+.shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px;
+} */
+
+.shopParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchbar {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px; /* Adjust the maximum width as needed */
+}
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+/* Add other CSS styles for PriceFilter and Card components as needed */

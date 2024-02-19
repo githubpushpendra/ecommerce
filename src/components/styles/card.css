@@ -1,0 +1,55 @@
+
+.card {
+  height: 462px;
+  width: 300;
+  margin-bottom: 10px;
+}
+
+.imgbox {
+  position: relative;
+  height: 399px;
+  width: 300px;
+}
+
+.product-image {
+  /* height: 80%;  */
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+.product-desc {
+  width: 300px;
+  height: 63px;
+  text-overflow: ellipsis;
+  font-size: 10px;
+  margin-top: -10px; 
+}
+
+.card-title {
+  display: flex;
+  width: 269px;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  width: 40%;
+  margin-left: 5px;
+}
+
+.product-desc h3 {
+  font-size: 15px;
+  width: 269px;
+  white-space: nowrap;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+}
+
+.product-desc .text {
+  margin-top: -10px;
+}
+
+.link {
+  text-decoration: underline;
+}
